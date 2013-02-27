@@ -9,7 +9,7 @@ Recently, I purchased a Mid 2012 MacBook Pro.  I was tired of Windows and was no
 
 I wanted to start using my C# skills with my MacBook.  So I began working with Make and [Mono](http://www.mono-project.com) to build [Nancy](http://www.nancyfx.org) Projects.  Nancy is a MVC framework for .NET.
 
-To tell you the truth I'm in love.  I should have make the switch sooner.  Honestly though, I don't think I could have without Nancy.  It's a great framework that works great with Mono.  
+To tell you the truth I'm in love.  I should have made the switch sooner.  Honestly though, I don't think I could have without Nancy.  It's a great framework that works great with Mono.  
 
 That said I'd like to share with you my latest github repo.
 
@@ -36,11 +36,11 @@ make test
 make clean 
 
 #delete packages & bin
-make clean all 
+make cleanall 
 {% endhighlight %}
 
 ### Things to Know
-The project is divided into 3 sections.
+The project is divided into 4 sections.
 
 - src
 - test
@@ -54,15 +54,15 @@ You'll also see Nancy specific folders and files
 
 Lastly, the folder `Resources` holds text files to be converted to resource files by make.
 
-### test
+#### test
 This is where the tests should go.  Inside here you'll also find another `DLLREF.txt`.  
 
 You need to modify `makefile` to provide the command to run your tests.
 
-### host
+#### host
 This is the code to run the site you've created.
 
-### bin
+#### bin
 This is where all the compiled dll go, like…
 
 - site.dll
