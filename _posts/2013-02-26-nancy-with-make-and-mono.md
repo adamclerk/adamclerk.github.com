@@ -25,7 +25,7 @@ All you have to do to get a site up and running is to call `make run`.
 
 As of this writing there are a few commands.
 
-{% highlight shell %}
+{% highlight bash %}
 #run site
 make run 
 
